@@ -7,27 +7,44 @@ Olimpia Milano - Cantù | 55-60 -->
     $matches = [
         [
         "casa" => "Atlanta Hawks",
-        "ospiti" => "Boston Celtics"
+        "ospiti" => "Boston Celtics",
         "punteggio-casa" => 50,
         "punteggio-ospiti" => 48    
         ],
         [
         "casa" => "Chicago Bulls",
-        "ospiti" => "Miami Heats"
+        "ospiti" => "Miami Heats",
         "punteggio-casa" => 64,
         "punteggio-ospiti" => 43    
         ],
         [
         "casa" => "Detroit Pistons",
-        "ospiti" => "Orlando Magic"
+        "ospiti" => "Orlando Magic",
         "punteggio-casa" => 46,
         "punteggio-ospiti" => 51    
         ],
         [
         "casa" => "Toronto Raptors",
-        "ospiti" => "Charlotte Hornets"
+        "ospiti" => "Charlotte Hornets",
         "punteggio-casa" => 72,
         "punteggio-ospiti" => 47    
         ]
     ];
+
+    for ($i = 0; $i < count($matches); $i++) {
+        
+    }
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Matches giornata odierna</h1>
+    
+</body>
+</html>
