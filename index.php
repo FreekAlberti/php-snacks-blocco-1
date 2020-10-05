@@ -30,10 +30,6 @@ Olimpia Milano - Cantù | 55-60 -->
         "punteggioOspiti" => 47    
         ]
     ];
-
-    for ($i = 0; $i < count($matches); $i++) {
-        echo $matches[$i]["casa"]." - ".$matches[$i]["ospiti"]." | ".$matches[$i]["punteggioCasa"]." - ".$matches[$i]["punteggioOspiti"];
-    }
 ?>
 
 <!DOCTYPE html>
@@ -45,6 +41,12 @@ Olimpia Milano - Cantù | 55-60 -->
 </head>
 <body>
     <h1>Matches giornata odierna</h1>
-    
+    <div>    
+        <?php
+            for ($i = 0; $i < count($matches); $i++) {
+                echo $matches[$i]["casa"]." - ".$matches[$i]["ospiti"]." | ".$matches[$i]["punteggioCasa"]." - ".$matches[$i]["punteggioOspiti"];
+            }
+        ?>
+    </div>
 </body>
 </html>
