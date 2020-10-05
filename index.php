@@ -8,31 +8,31 @@ Olimpia Milano - Cantù | 55-60 -->
         [
         "casa" => "Atlanta Hawks",
         "ospiti" => "Boston Celtics",
-        "punteggio-casa" => 50,
-        "punteggio-ospiti" => 48    
+        "punteggioCasa" => 50,
+        "punteggioOspiti" => 48    
         ],
         [
         "casa" => "Chicago Bulls",
         "ospiti" => "Miami Heats",
-        "punteggio-casa" => 64,
-        "punteggio-ospiti" => 43    
+        "punteggioCasa" => 64,
+        "punteggioOspiti" => 43    
         ],
         [
         "casa" => "Detroit Pistons",
         "ospiti" => "Orlando Magic",
-        "punteggio-casa" => 46,
-        "punteggio-ospiti" => 51    
+        "punteggioCasa" => 46,
+        "punteggioOspiti" => 51    
         ],
         [
         "casa" => "Toronto Raptors",
         "ospiti" => "Charlotte Hornets",
-        "punteggio-casa" => 72,
-        "punteggio-ospiti" => 47    
+        "punteggioCasa" => 72,
+        "punteggioOspiti" => 47    
         ]
     ];
 
     for ($i = 0; $i < count($matches); $i++) {
-        
+        echo $matches[$i]["casa"]." - ".$matches[$i]["ospiti"]." | ".$matches[$i]["punteggioCasa"]." - ".$matches[$i]["punteggioOspiti"];
     }
 ?>
 
