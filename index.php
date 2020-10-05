@@ -41,12 +41,16 @@ Olimpia Milano - Cantù | 55-60 -->
 </head>
 <body>
     <h1>Matches giornata odierna</h1>
-    <div>    
+    <ul>    
         <?php
-            for ($i = 0; $i < count($matches); $i++) {
-                echo $matches[$i]["casa"]." - ".$matches[$i]["ospiti"]." | ".$matches[$i]["punteggioCasa"]." - ".$matches[$i]["punteggioOspiti"];
-            }
+            for ($i = 0; $i < count($matches); $i++) { 
         ?>
-    </div>
+        <li>
+            <?php
+                    echo $matches[$i]["casa"]." - ".$matches[$i]["ospiti"]." | ".$matches[$i]["punteggioCasa"]." - ".$matches[$i]["punteggioOspiti"];
+                }
+            ?>
+        </li>
+    </ul>
 </body>
 </html>
